@@ -25,28 +25,24 @@ Deploy : Once your application is running locally, you can deploy it on a platfo
 ### How to Use the Application
 
 1. **Open the Application:**
-   - After setting up the project, open your terminal or command prompt.
-   - Navigate to the directory where your `web scrapping.ipynb` file is located.
-   - Start the application by running:
-     ```bash
-     streamlit run app.py
-     ```
-   - This will launch the application in your default web browser.
+    After setting up the project, open your terminal or command prompt.
+    Navigate to the directory where your `web scrapping.ipynb` file is located.
+    This will launch the application in your default web browser.
 
 2. **Input Location:**
-   - In the application interface, you'll see an input box labeled "Enter Location."
-   - Type the name of the location (e.g., "Mumbai", "Bangalore", "Delhi") into this box.
+    In the application interface, you'll see an input box labeled "Enter Location."
+    Type the name of the location (e.g., "Mumbai", "Bangalore", "Delhi") into this box.
 
 3. **Select Specialization:**
-   - Below the location input, you'll find a dropdown menu labeled "Select Specialization."
-   - Click the dropdown menu and choose a medical specialization from the list provided (e.g., "Cardiologist", "Dentist", "Dermatologist", "Gynecologist").
+    Below the location input, you'll find a dropdown menu labeled "Select Specialization."
+    Click the dropdown menu and choose a medical specialization from the list provided (e.g., "Cardiologist", "Dentist", "Dermatologist", "Gynecologist").
 
 4. **Start Scraping:**
-   - After entering the location and selecting the specialization, click the "Scrape" button.
-   - The application will begin scraping Practo.com for the number of doctors that match your search criteria.
+    After entering the location and selecting the specialization, click the "Scrape" button.
+    The application will begin scraping Practo.com for the number of doctors that match your search criteria.
 
 5. **View Results:**
-   - Once the scraping process is complete, the application will display the total number of doctor profiles available in the specified location and specialization.
+    Once the scraping process is complete, the application will display the total number of doctor profiles available in the specified location and specialization.
 
 1. **Enter Location:** "Mumbai"
 2. **Select Specialization:** "Cardiologist"
