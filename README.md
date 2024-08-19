@@ -1,5 +1,6 @@
 **Project Title**: Web Scraping with Streamlit Application 
 **Project Description**:  This project involves developing a Streamlit application that allows users to search for the total number of doctors available on Practo.com based on specific location and specialization inputs. Users will enter a location into an input box and select a medical specialization from a dropdown menu. When the "Scrape" button is clicked, the application will scrape Practo.com for the number of doctor profiles matching the user's criteria and display the result directly within the app. This tool provides a simple and efficient way to access healthcare provider information based on user preferences.
+
 **Installation Instruction**:
 Set Up Your Environment: Ensure you have Python installed. You can download it from python.org. Create a virtual environmen
 Install Required Libraries: Install the necessary Python libraries using pip :
@@ -61,20 +62,7 @@ Once you click the "Scrape" button, the application will begin collecting data f
 
 1. **Display of Results:**
    - The application will display a message indicating the total number of doctor profiles found that match your search criteria.
-   - Example: If you searched for "Cardiologists" in "Mumbai," you might see a message like:
-     ```
-     Number of doctors in Mumbai specializing in Cardiologist: 250
-     ```
-
-2. **No Data Found:**
-   - If no doctor profiles are found that match your criteria, the application will display a message like:
-     ```
-     No doctors found in Mumbai specializing in Cardiologist.
-     ```
-
-3. **Error Handling:**
-   - If there's an issue with the scraping process (e.g., network errors, issues accessing the website), the application may display an error message explaining the problem and suggesting possible solutions (e.g., checking your internet connection, trying again later).
-
+   
 4. **Additional Information:**
    - The results may include additional details, such as the time taken to complete the scraping process or any other relevant information, depending on how the application is customized.
 
