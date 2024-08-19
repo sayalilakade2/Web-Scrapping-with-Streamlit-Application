@@ -1,4 +1,5 @@
 **Project Title**: Web Scraping with Streamlit Application 
+
 **Project Description**:  This project involves developing a Streamlit application that allows users to search for the total number of doctors available on Practo.com based on specific location and specialization inputs. Users will enter a location into an input box and select a medical specialization from a dropdown menu. When the "Scrape" button is clicked, the application will scrape Practo.com for the number of doctor profiles matching the user's criteria and display the result directly within the app. This tool provides a simple and efficient way to access healthcare provider information based on user preferences.
 
 **Installation Instruction**:
@@ -61,9 +62,9 @@ Once you click the "Scrape" button, the application will begin collecting data f
 #### After the Scraping Process is Completed:
 
 1. **Display of Results:**
-   - The application will display a message indicating the total number of doctor profiles found that match your search criteria.
+ The application will display a message indicating the total number of doctor profiles found that match your search criteria.
    
-4. **Additional Information:**
-   - The results may include additional details, such as the time taken to complete the scraping process or any other relevant information, depending on how the application is customized.
+2. **Additional Information:**
+ The results may include additional details, such as the time taken to complete the scraping process or any other relevant information, depending on how the application is customized.
 
 The output is designed to be clear and concise, providing you with the specific information you need about the availability of doctors based on your search criteria.
